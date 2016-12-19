@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html ng-app="weatherHelpApp">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body ng-controller="mainCtrl">
+
+    <main ng-class="{page: default, jacksonville: jacksonville}">
+
+      <div class="weather">
+        <div>
+            ZIP:
+          <input type="text" placeholder="put your zip-code here" ng-model="zip"/>
+
+          <button class="btn-text" ng-click="retrieveWeather(zip)">
+            Click for weather & wheat
+          </button>
+          <div class="results">
+              {{weather.name}}
+              {{weather.main.temp}}
+              {{weather.weather[0].description}}
+          </div>
+        </div>
+      </div>
+
+</main>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
+    <script src="app.js"></script>
+    <script src="controller.js"></script>
+    <script src="service.js"></script>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+.page {
+  background-image: url('https://images.unsplash.com/photo-1469122312224-c5846569feb1?dpr=2&auto=format&fit=crop&w=1500&h=880&q=80&cs=tinysrgb&crop=');
+  width: 1282px;
+  height: 100vh;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+.jacksonville {
+  background-image: url('https://images.unsplash.com/photo-1464724680407-16b588cd4ccc?dpr=2&auto=format&fit=crop&w=1500&h=994&q=80&cs=tinysrgb&crop=');
+  /*background-image: url('http://www.jacksonvilleil.com/vertical/Sites/%7BDB68511E-E929-445F-86EA-BF8BABF6AE06%7D/uploads/%7BDE981E4E-7A93-4DFC-B471-E7A907B75545%7D.JPG');*/
+  width: 1282px;
+  height: 100vh;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding-top: 100px;
+}
+.weather {
+
+  border-radius: 20px;
+  width: 30vw;
+  height: 30vh;
+  background-color: rgba(122, 125, 125, .4);
+  display: flex;
+  justify-content: center;
+  padding-top:67px;
+  padding-bottom: 78px;
+  font-family: 'Raleway', sans-serif;
+}
+.results {
+  margin-top: 25px;
+  font-family: 'Raleway', sans-serif;
+}
+input {
+  text-decoration: none;
+  border-radius: 3px;
+}
+button {
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  background-color: lightgrey;
+  border-radius: 10px;
+}
